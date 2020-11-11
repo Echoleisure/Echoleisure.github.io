@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://Echoleisure.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -105,5 +105,5 @@ theme: yun
 deploy:
   type: git
   repo: https://github.com/Echoleisure/Echoleisure.github.io # 比如：https://github.com/YunYouJun/yunyoujun.github.io
-  branch: hexo # 默认使用 master 分支
+  branch: gh-pages # 默认使用 master 分支
   message: Update Hexo Static Content # 你可以自定义此次部署更新的说明
